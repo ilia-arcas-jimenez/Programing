@@ -30,7 +30,7 @@ Saludos "
 
 
 
-sleep 5s
+sleep 20s
 
 
 trap ctrl_c INT
