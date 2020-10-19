@@ -13,20 +13,20 @@
 
 
 
-echo -n -e "\e[1;31m██████████████         ███                █████████████████                ███              \e[0m"                                                  
-echo -n -e "\r[1;31m██████████████         ███                █████████████████               █████             \r[0m"                                                
-echo -n -e "\e[1;31m      ███              ███                       ███                     ███ ███            \e[0m"                
-echo -n -e "\r[1;31m      ███              ███                       ███                    ███   ███           \r[0m"              
-echo -n -e "\e[1;31m      ███              ███                       ███                   ███     ███          \e[0m"
-echo -n -e "\r[1;31m      ███              ███                       ███                  █████████████         \r[0m"                       
-echo -n -e "\e[1;31m      ███              ███                       ███                 ███████████████        \e[0m"         
-echo -n -e "\r[1;31m      ███              ███                       ███                ███            ███       \r[0m"
-echo -n -e "\e[1;31m██████████████         ███████████        █████████████████        ███              ███     \e[0m"                   
-echo -n -e "\r[1;31m██████████████         ███████████        █████████████████       ███                ███    \r[0m"                          
+echo -n -e "\b[1;31m██████████████         ███                █████████████████                ███              \b[0m"
+echo -n -e "\r[1;31m██████████████         ███                █████████████████               █████             \r[0m"
+echo -n -e "\b[1;31m      ███              ███                       ███                     ███ ███            \b[0m"
+echo -n -e "\r[1;31m      ███              ███                       ███                    ███   ███           \r[0m"
+echo -n -e "\b[1;31m      ███              ███                       ███                   ███     ███          \b[0m"
+echo -n -e "\r[1;31m      ███              ███                       ███                  █████████████         \r[0m"
+echo -n -e "\b[1;31m      ███              ███                       ███                 ███████████████        \b[0m"
+echo -n -e "\r[1;31m      ███              ███                       ███                ███            ███      \r[0m"
+echo -n -e "\b[1;31m██████████████         ███████████        █████████████████        ███              ███     \b[0m"
+echo -n -e "\r[1;31m██████████████         ███████████        █████████████████       ███                ███    \r[0m"
 
-echo -n -e "Esta es l aprueba final y absoluta la cual esta completamente acabada y pulida.
+echo -n -e "Esta es la prueba final y absoluta la cual esta completamente acabada y pulida.
 Espero que les guste mi proyecto
-Saludos "
+Saludos"
 
 
 
